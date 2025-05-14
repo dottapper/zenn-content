@@ -12,8 +12,8 @@ published: false
 - **settings.json** と iframe の URL パラメータをいじるだけで解決できるポイント
 - もっと大きく（または小さく）見せたいときの調整法
 
-![調整前（大きすぎる、画面により過ぎている）](/images/supersplat-viewer/0513-05.png)
-![調整前の状態](/images/supersplat-viewer/0513-03.png)
+![調整前（大きすぎる、画面に寄り過ぎている）](/images/supersplat-viewer/0513-05.png)
+![調整前（上によって、勝手に回転している状態）](/images/supersplat-viewer/0513-03.png)
 ![調整後の状態](/images/supersplat-viewer/0513-04.png)
 
 ---
