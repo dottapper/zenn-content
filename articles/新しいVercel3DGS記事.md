@@ -3,7 +3,7 @@ title: "Vercel で 3D Gaussian Splatting (.ply) が表示されない?! Git LFS 
 emoji: "🚀"
 type: "tech"
 topics: ["three.js", "vercel", "git-lfs", "webgl", "3dgs"]
-published: false
+published: true
 ---
 
 ## TL;DR
