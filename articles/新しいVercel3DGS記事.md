@@ -25,6 +25,8 @@ DevTools には `Invalid ply header`。サイズを見たら **0 kB** で配信�
 
 ![Network 0kB screenshot](./images/network-0kb.png)
 
+![3DGSが表示されない状態](/images/vercel-3dgs/0514-02.png)
+
 ## 原因を絞り込むまでの 5 分
 
 | チェック                  | 結果                       |
@@ -71,6 +73,8 @@ git push origin main
 ```
 
 GitHub でファイルを開くと _Binary file cannot be displayed_ とだけ出て、**Stored with Git LFS** が消えれば成功。Vercel が自動デプロイ → Network に **32 MB** が載れば 3D 復活！
+
+![3DGSが表示された成功状態](/images/vercel-3dgs/0514-03.png)
 
 ## 「ログインしないと見られない?」を解決
 
