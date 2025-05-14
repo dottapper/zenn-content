@@ -1,9 +1,10 @@
 ---
-title: "Vercel で 3D Gaussian Splatting (.ply) が表示されない?! Git LFS ポインタ問題を 15 分で解決したメモ"
+title: "Vercelで3DGS (.ply) が表示されない問題を15分で解決"
 emoji: "🚀"
 type: "tech"
-topics: ["three.js", "vercel", "git-lfs", "webgl", "3dgs"]
+topics: ["threejs", "vercel", "gitlfs", "webgl", "3dgs"]
 published: true
+slug: vercel-3dgs-lfs-failure
 ---
 
 ## TL;DR
