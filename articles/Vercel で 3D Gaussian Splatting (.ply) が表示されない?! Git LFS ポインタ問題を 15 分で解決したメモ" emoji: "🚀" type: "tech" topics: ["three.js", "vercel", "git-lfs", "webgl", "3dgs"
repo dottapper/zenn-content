@@ -1,0 +1,24 @@
+## ついでにやったこと
+
+* 不要になった `sample/` と `.DS_Store` を `git rm -r`。
+* `.gitignore` に `.DS_Store` 追加。
+* progress bar が気になったので CSS で非表示。
+
+```css
+#progressBar { display: none !important; }
+```
+
+## 今後のチューニングメモ
+
+* **Draco + glTF** or **meshopt** でさらに軽く。（※これは3DGSではなく、従来の3Dメッシュモデル用の圧縮技術です）
+* ロード後に `OrbitControls.enableZoom = false` で UX 改善。（3DGSもglTFも共通して使える）
+* `IntersectionObserver` で遅延ロードして LCP を稼ぐ。（複数の3Dモデルがあるページで効果的）
+
+### 3DGS特有の最適化メモ
+
+* plyファイルの品質設定（圧縮率）を調整して容量とクオリティのバランスを探る
+* モバイル向けに低解像度版を別途用意することも検討
+
+---
+
+### 参考リンク 
