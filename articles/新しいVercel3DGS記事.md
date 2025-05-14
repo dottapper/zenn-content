@@ -23,8 +23,6 @@ published: false
 
 DevTools には `Invalid ply header`。サイズを見たら **0 kB** で配信されていた。
 
-![Network 0kB screenshot](./images/network-0kb.png)
-
 ![3DGSが表示されない状態](/images/vercel-3dgs/0514-02.png)
 
 ## 原因を絞り込むまでの 5 分
