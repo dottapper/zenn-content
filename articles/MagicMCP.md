@@ -58,16 +58,19 @@ node -v   # v18 以上なら OK
 **API キーを発行**
 
 - [21st.dev の Magic コンソール](https://console.21st.dev)へアクセス
-- Generate API Key ボタンでキーを取得
+- 右上の「API」→「Get your Key」あるいは「Generate new key」をクリック
+- 表示された Key をワンクリックでコピー（＊再表示できない場合が多いので必ずメモ帳にも控えておくと安心）
+- キーは公開 NG です。ターミナルに貼る時は履歴を削除するか、シェル変数に入れましょう
 
 ### 1. もっとも簡単：CLI ワンライナー
 
 ```bash
-npx @21st-dev/cli@latest install claude --api-key <発行したキー>
+npx @21st-dev/cli@latest install claude --api-key <YOUR_KEY>
 ```
 
-- `claude` を `cursor` / `windsurf` / `cline` に替えれば各 IDE 用に自動設定
+- `claude` を `cursor` / `windsurf` / `vscode` に替えれば各 IDE 用に自動設定
 - 実行すると `~/.claude/mcp.json` などにエントリが生成され、すぐに使えます
+- 数十秒で「Installed Magic MCP ✓」と出れば成功です
 - 所要時間：3〜4 分（ダウンロード込み）
 
 ### 2. Cursor で手動追加したい場合
