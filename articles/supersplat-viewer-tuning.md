@@ -3,7 +3,7 @@ title: "SuperSplat Viewer調整メモ ─ LPヒーローへの組み込みとト
 emoji: "🔧"
 type: "tech"
 topics: ["supersplat", "3dgs", "threejs", "webgl"]
-published: false
+published: true
 ---
 
 ## ✨ この記事でわかること
