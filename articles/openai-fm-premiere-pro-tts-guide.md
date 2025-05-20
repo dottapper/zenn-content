@@ -7,7 +7,7 @@ published: false
 slug: "openai-fm-premiere-pro-tts-guide"
 ---
 
-## 🎧 きっかけ ──「WAV なのに無音!?」C
+## 🎧 きっかけ ──「WAV なのに無音!?」
 
 OpenAI の **TTS（Text-to-Speech）/FM モデル** で生成したナレーションを  
 Premiere Pro にドラッグしたところ、**インポートは成功するのに波形が出ず無音**──  
